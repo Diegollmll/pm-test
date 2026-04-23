@@ -9,7 +9,8 @@
  - Scrum Master: This individual helps the team in learning to    apply
    Scrum to ensure optimum business value. The scrum master    removes
    impediments, shields the team from distractions, and enables    them
-   to adopt agile practices.     Scrum Team: They are a collection of   
+   to adopt agile practices.     
+ - Scrum Team: They are a collection of   
    individuals who work together to ensure that the requirements of the 
    stakeholders are delivered.
 
@@ -121,4 +122,19 @@ Team velocity
  - Given the following requirement, please write an user story with all
    the required items for the dev team.
    `I want to have notifications in the App when there is new contend added`  
+
+User Story:
+
+As a registered user, I want to receive notifications when new content is added to the app, 
+so that I can stay up to date without having to manually check for updates.
+
+Acceptance Criteria:
+
+- The user receives a notification when new content is published.
+- The notification includes the content title and a brief description.
+- Tapping or clicking the notification redirects the user directly to the new content.
+- The user can enable or disable notifications from the app settings.
+- Notification are only sent to users who have enabled them.
+- If the user has unread notification, a badge count is displayed on thge app icon.
+- Notifications are delivered even when the app is running in the background.
 
